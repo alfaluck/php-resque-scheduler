@@ -13,7 +13,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Security
 
 ## 2.0.0 - 2016-12-23
-Initial commit in fork
+Initial commit of fork
 
 
 ## 1.1.0 - 2013-03-11

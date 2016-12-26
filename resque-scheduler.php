@@ -29,10 +29,10 @@ $LOGGING = getenv('LOGGING');
 $VERBOSE = getenv('VERBOSE');
 $VVERBOSE = getenv('VVERBOSE');
 if(!empty($LOGGING) || !empty($VERBOSE)) {
-	$logLevel = ResqueScheduler_Worker::LOG_NORMAL;
+	$logLevel = 1;
 }
 else if(!empty($VVERBOSE)) {
-	$logLevel = ResqueScheduler_Worker::LOG_VERBOSE;
+	$logLevel = 2;
 }
 
 // Check for jobs every $interval seconds

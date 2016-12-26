@@ -1,14 +1,37 @@
-## 1.1 (2013-03-11) ##
+# Change Log
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](http://keepachangelog.com/) 
+and this project adheres to [Semantic Versioning](http://semver.org/).
+
+## [Unreleased]
+### Added
+### Changed
+### Deprecated
+### Removed
+### Fixed
+### Security
+
+## 2.0.0 - 2016-12-23
+Initial commit in fork
+
+
+## 1.1.0 - 2013-03-11
 
 **Note:** This release is compatible with php-resque 1.0 through 1.2.
 
-* Add composer.json and submit to Packagist (rayward)
-* Correct issues with documentation (Chuan Ma)
-* Update declarations for methods called statically to actually be static methods (atorres757)
-* Implement ResqueScheduler::removeDelayed and ResqueScheduler::removeDelayedJobFromTimestamp (tonypiper)
-* Correct spelling for ResqueScheduler_InvalidTimestampException (biinari)
-* Correct spelling of beforeDelayedEnqueue event (cballou)
+### Added
+- added composer.json and submit to Packagist (rayward)
+- implemented ResqueScheduler::removeDelayed and ResqueScheduler::removeDelayedJobFromTimestamp (tonypiper)
 
-## 1.0 (2011-03-27) ##
+## Changed
+- Update declarations for methods called statically to actually be static methods (atorres757)
 
-* Initial release
+### Fixed
+- Corrected spelling for ResqueScheduler_InvalidTimestampException (biinari)
+- Corrected spelling of beforeDelayedEnqueue event (cballou)
+- Correct issues with documentation (Chuan Ma) 
+
+
+## 1.0.0 - 2011-03-27
+Initial release

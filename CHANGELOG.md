@@ -12,6 +12,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Fixed
 ### Security
 
+
+## [2.1.0] - 2016-12-23
+### Added
+- SIGNAL handling
+- PSR-3 logger support
+
+
 ## 2.0.0 - 2016-12-23
 Initial commit of fork
 
@@ -35,3 +42,6 @@ Initial commit of fork
 
 ## 1.0.0 - 2011-03-27
 Initial release
+
+[Unreleased]: https://github.com/alfaluck/php-resque-scheduler/compare/v.2.1.0...develop
+[1.2.2]: https://github.com/alfaluck/php-resque-scheduler/compare/v.2.0.0...v.2.1.0
